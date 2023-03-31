@@ -1,0 +1,72 @@
+* {
+    font-family: 'Inconsolata', monospace;
+}
+
+body {
+    margin: 0;
+   background: url(assets/alien.jpg) no-repeat;
+   background-size: cover;
+   background-position: center;
+   height: 100vh;
+   overflow: hidden;
+}
+
+.box {
+    color: white;
+    background-color: rgba(227, 135, 89, 0.3);
+    padding: 2rem;
+   margin:  1rem 10rem 1rem 10rem;
+   height: 74%;
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-end;
+   align-items: flex-start;
+   
+   &__header {
+       font-size: 2.5rem;
+       width: 70%;
+       background-color: rgb(29, 28, 28, 0.8);
+       text-align: center;
+       padding: 0.5rem 0 0.5rem 0;
+       margin-bottom: 0.7rem;
+   
+   }
+
+    &__error {
+        font-size: 10rem;
+        color: #d7ff00;
+        height: 2rem;
+    }
+
+   &__quote {
+    padding: 0 2rem 0 2rem;
+   font-size: 1.2rem;
+    line-height: 2rem;
+    width: 70%;
+    background-color: rgb(29, 28, 28, 0.8);
+ 
+   }
+   
+   }
+
+   .button {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+
+
+    &__style {
+
+        height: 4rem;
+        background-color: rgb(22, 21, 21,0.8);
+        color: white;
+        padding-left:10rem;
+        padding-right: 10rem;
+        font-size: 2rem;
+        &:hover {
+            background-color: rgba(77, 74, 74, 0.4);
+            cursor: pointer;
+        }
+    }
+}

@@ -1,0 +1,80 @@
+* {
+  font-family: "Inconsolata", monospace;
+}
+
+body {
+  margin: 0;
+  background: url(assets/hero.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.box {
+  color: white;
+  background-color: rgba(54, 53, 53, 0.5);
+  padding: 2rem;
+  margin: 1rem 10rem 1rem 10rem;
+}
+.box__header {
+  width: 70%;
+}
+.box__header-paragraph {
+  font-size: 1rem;
+  line-height: 1.2rem;
+}
+
+.weather__today {
+  padding-top: 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.weather__today-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(224, 200, 200, 0.2);
+  width: 20%;
+}
+.weather__today-box:hover {
+  background-color: rgba(219, 212, 212, 0.5);
+}
+.weather__past {
+  padding-top: 2rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.weather__day {
+  margin-top: 1.5rem;
+  background-color: rgba(15, 15, 15, 0.3);
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  line-height: 0.1rem;
+}
+.weather__day:hover {
+  background-color: rgba(77, 74, 74, 0.4);
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.button__style {
+  height: 4rem;
+  background-color: rgba(22, 21, 21, 0.8);
+  color: white;
+  padding-left: 10rem;
+  padding-right: 10rem;
+  font-size: 2rem;
+}
+.button__style:hover {
+  background-color: rgba(77, 74, 74, 0.4);
+  cursor: pointer;
+}/*# sourceMappingURL=styles.css.map */
